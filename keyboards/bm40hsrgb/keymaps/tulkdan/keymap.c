@@ -134,8 +134,8 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
 #ifdef RAW_ENABLE
 void raw_hid_receive(uint8_t *data, uint8_t length) {
-    // TODO: change keyboard rgb matrix
+    rgb_matrix_set_color_all(200, 0, 0);
+
     raw_hid_send(data, length);
-    return;
 }
 #endif
