@@ -80,14 +80,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |-----+-----+-----+-----+-----+-----+-----+------------+-------+-------+-------+-----|
  * |     |  !  |  @  |  #  |     |     |     |C_S_T(Print)|   [   |   ]   |       |     |
  * |-----+-----+-----+-----+-----+-----+-----+------------+-------+-------+-------+-----|
- * |     |     |  |  |     |     |           |   ADJUST   |  Home | Pg Up | Pg Dn | End |
+ * |     |     |  |  |     |     |           |   ADJUST   |  Home | Pg Dn | Pg Up | End |
  * `------------------------------------------------------------------------------------'
  */
 [_LOWER] = LAYOUT_planck_mit(
     KC_TILD, KC_AMPR, KC_ASTR, KC_LPRN, _______, _______, _______,    _______    , KC_LPRN, KC_RPRN, KC_PSCR, _______,
      KC_DEL, KC_DLR , KC_PERC, KC_CIRC, KC_UNDS, _______, _______,    _______    , KC_LCBR, KC_RCBR, _______, _______,
     _______, KC_EXLM, KC_AT  , KC_HASH, _______, _______, _______, C_S_T(KC_PSCR), KC_LBRC, KC_RBRC, _______, _______,
-    _______, _______, KC_PIPE, _______, _______,     _______     ,    _______    , KC_HOME, KC_PGUP, KC_PGDN, KC_END
+    _______, _______, KC_PIPE, _______, _______,     _______     ,    _______    , KC_HOME, KC_PGDN, KC_PGUP, KC_END
 ),
 
 /* Raise
