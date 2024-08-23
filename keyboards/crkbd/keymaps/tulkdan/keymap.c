@@ -61,13 +61,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  //LOWER
   [3] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_TAB, XXXXXXX,   KC_UP, XXXXXXX, XXXXXXX, KC_MPRV,                      XXXXXXX, KC_MINS,   KC_P7,   KC_P8,   KC_P9,  KC_DEL,
+      KC_TAB , XXXXXXX,  KC_7  ,   KC_8 ,  KC_9  , KC_MINS,                     KC_MPRV , XXXXXXX,   KC_UP, XXXXXXX,  XXXXXXX, KC_DEL,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, KC_LEFT, KC_DOWN,KC_RIGHT, XXXXXXX, KC_MPLY,                      XXXXXXX, KC_PLUS,   KC_P4,   KC_P5,   KC_P6, XXXXXXX,
+      KC_LSFT, XXXXXXX,  KC_4  ,   KC_5 ,  KC_6  , KC_PLUS,                     KC_MPLY , KC_LEFT, KC_DOWN,KC_RIGHT, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_MNXT,                      XXXXXXX,  KC_EQL,   KC_P1,   KC_P2,   KC_P3,  KC_F13,
+      KC_LCTL, XXXXXXX,  KC_1  ,   KC_2 ,  KC_3  , KC_EQL ,                     KC_MNXT , XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, KC_F13,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI, _______,  KC_SPC,    KC_SPC,   MO(5), KC_P0
+                                             KC_0, _______, KC_LGUI,    KC_SPC,   MO(5), XXXXXXX
                                       //`--------------------------'  `--------------------------'
   ),
  //RAISE
